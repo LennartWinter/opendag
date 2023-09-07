@@ -5,21 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/main.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
     <title>Curio - Opendag</title>
 </head>
 <body>
     <header>
         <div class="banner">
-            <p>info.curio.codes</p>
+            <img onclick="reload('https://curio.nl/')" draggable="false" src="img/curio-02-wit-logo-rgb.png" alt="curio-02-wit-logo-rgb.png">
+            <p onclick="reload()">info.curio.codes</p>
         </div>
         <div class="nav">
             <nav>
-                <p class="opleiding">Over de opleiding</p>
-                <p>De docenten</p>
-                <p>Opleiding's traject</p>
-                <p>Wat vind ik van de opleiding?</p>
+                <p onclick="home()">Home</p>
+                <p onclick="about()">Over de opleiding</p>
+                <p onclick="teachers()">De docenten</p>
+                <p onclick="study()">Opleiding's traject</p>
+                <p onclick="opinion()">Wat vind ik van de opleiding?</p>
             </nav>
         </div>
     </header>
+    <main>
+        <p id="text"></p>
+    </main>
+    <script>
+        replaceTextWithFileContent("docs/home.txt", "text");
+    </script>
 </body>
 </html>

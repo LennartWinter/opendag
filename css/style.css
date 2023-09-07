@@ -5,6 +5,7 @@
 .banner{
     background-color: #0000a4;
     padding-bottom: 2%;
+    display: flex;
 }
 .banner p{
     color: #fff;
@@ -24,4 +25,14 @@ nav{
 }
 .opleiding:hover{
     display: show;
+}
+nav p{
+    font-size: 1.2em;
+    color: #0000a4;
+    text-decoration: none;
+}
+.banner img{
+    width: 10vw;
+    height: 8vh;
+    padding-top: 1%;
 }
