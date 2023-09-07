@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.banner{
+    background-color: #0000a4;
+    padding-bottom: 2%;
+}
+.banner p{
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2%;
+}
+.nav{
+    background-color: #fff;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+nav{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.opleiding:hover{
+    display: show;
+}
