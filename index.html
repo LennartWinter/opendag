@@ -25,10 +25,14 @@
         </div>
     </header>
     <main>
-        <p id="text"></p>
+        <div class="main">
+            <h3 id="title" class="title"></h3>
+            <p id="text"></p>
+        </div>
     </main>
     <script>
         replaceTextWithFileContent("docs/home.txt", "text");
+        replaceText("Home", "title");
     </script>
 </body>
 </html>

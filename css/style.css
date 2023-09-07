@@ -23,9 +23,6 @@ nav{
     display: flex;
     justify-content: space-around;
 }
-.opleiding:hover{
-    display: show;
-}
 nav p{
     font-size: 1.2em;
     color: #0000a4;
@@ -35,4 +32,19 @@ nav p{
     width: 10vw;
     height: 8vh;
     padding-top: 1%;
+}
+.main p{
+    margin: 2%;
+    font-size: 1.5em;
+}
+.title{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 3em;
+}
+.main{
+    border: black solid 2px;
+    margin: 2%;
+    border-radius: 10px;
 }
