@@ -21,6 +21,11 @@ function replaceText(text, id){
     element.textContent = text;
 }
 
+function replaceImg(img, id){
+    var element = document.getElementById(id);
+    element.src = img;
+}
+
 function reload(url){
     if(url == "" || url == null){
         location.reload();
@@ -41,6 +46,16 @@ function home() {
 function about() {
     replaceTextWithFileContent("docs/about.txt", "text");
     replaceText("Over de opleiding", "title");
+    locations = ["img/Sanne Bas - Curio - Knipplein 11-1.jpg", "img/Sanne Bas - Curio - Knipplein 11-2.jpg", "img/Sanne Bas - Curio - Knipplein 11-3.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-2.jpg"];
+    // loop through the images every 2 seconds
+    var i = 0;
+    setInterval(function() {
+        replaceImg(locations[i], "image");
+        i++;
+        if (i == locations.length) {
+            i = 0;
+        }
+    }, 2000);
 }
 function teachers() {
     replaceTextWithFileContent("docs/teachers.txt", "text");

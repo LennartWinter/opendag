@@ -3,7 +3,7 @@
     padding: 0;
 }
 .banner{
-    background-color: #0000a4;
+    background-color: #FFCC00;
     padding-bottom: 2%;
     display: flex;
 }
@@ -29,8 +29,8 @@ nav p{
     text-decoration: none;
 }
 .banner img{
-    width: 10vw;
-    height: 8vh;
+    width: 274px;
+    height: 100px;
     padding-top: 1%;
 }
 .main p{
@@ -47,4 +47,9 @@ nav p{
     border: black solid 2px;
     margin: 2%;
     border-radius: 10px;
+}
+.img-small{
+    width: 20%;
+    height: 20%;
+    margin: 2%;
 }
