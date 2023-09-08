@@ -75,8 +75,10 @@ setInterval(function() {
         }
     }
     else if(currentPage=="teachers"){
+        names = ["Elton Boekhoudt", "Wicher Hulzebosch", "Bart Roos"]
         locations = ["img/elton.png", "img/wicher.png", "img/bart.png"]
         replaceImg(locations[i], "image");
+        replaceText(names[i], "imagehead");
         i++;
         if (i >= locations.length) {
             i = 0;
