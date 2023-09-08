@@ -51,18 +51,7 @@ function about() {
     currentPage = "about";
     replaceTextWithFileContent("docs/about.txt", "text");
     replaceText("Over de opleiding", "title");
-    locations = ["img/Sanne Bas - Curio - Knipplein 11-1.jpg", "img/Sanne Bas - Curio - Knipplein 11-2.jpg", "img/Sanne Bas - Curio - Knipplein 11-3.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-2.jpg"];
     replaceImg(locations[4], "image");
-    var i = 0;
-    setInterval(function() {
-        if(currentPage=="about"){
-            replaceImg(locations[i], "image");
-            i++;
-            if (i == locations.length) {
-                i = 0;
-            }
-        }
-    }, 2000);
 }
 function teachers() {
     currentPage = "teachers";
@@ -74,3 +63,23 @@ function opinion() {
     replaceTextWithFileContent("docs/opinion.txt", "text");
     replaceText("Wat vind ik van de opleiding?", "title");
 }
+
+var i = 0;
+setInterval(function() {
+    if(currentPage=="about"){
+        locations = ["img/Sanne Bas - Curio - Knipplein 11-1.jpg", "img/Sanne Bas - Curio - Knipplein 11-2.jpg", "img/Sanne Bas - Curio - Knipplein 11-3.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-2.jpg"];
+        replaceImg(locations[i], "image");
+        i++;
+        if (i >= locations.length) {
+            i = 0;
+        }
+    }
+    else if(currentPage=="teachers"){
+        locations = ["img/elton.png", "img/wicher.png", "img/bart.png"]
+        replaceImg(locations[i], "image");
+        i++;
+        if (i >= locations.length) {
+            i = 0;
+        }
+    }
+}, 2000);
