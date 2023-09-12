@@ -40,7 +40,7 @@ function reload(url){
 function study() {
     currentPage = "study";
     replaceTextWithFileContent("docs/study.txt", "text");
-    replaceText("Opleiding's traject", "title");
+    replaceText("Study's program", "title");
 }
 function home() {
     currentPage = "home";
@@ -50,18 +50,18 @@ function home() {
 function about() {
     currentPage = "about";
     replaceTextWithFileContent("docs/about.txt", "text");
-    replaceText("Over de opleiding", "title");
+    replaceText("About the study", "title");
     replaceImg(locations[4], "image");
 }
 function teachers() {
     currentPage = "teachers";
     replaceTextWithFileContent("docs/teachers.txt", "text");
-    replaceText("De docenten", "title");
+    replaceText("The teachers", "title");
 }
 function opinion() {
     currentPage = "opinion";
     replaceTextWithFileContent("docs/opinion.txt", "text");
-    replaceText("Wat vind ik van de opleiding?", "title");
+    replaceText("What do I think of the study?", "title");
 }
 
 var i = 0;
