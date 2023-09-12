@@ -67,7 +67,7 @@ function opinion() {
 var i = 0;
 setInterval(function() {
     if(currentPage=="about"){
-        locations = ["img/Sanne Bas - Curio - Knipplein 11-1.jpg", "img/Sanne Bas - Curio - Knipplein 11-2.jpg", "img/Sanne Bas - Curio - Knipplein 11-3.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-1.jpg", "img/Sanne Bas - Curio - Terheijdenseweg 350-2.jpg"];
+        locations = ["https://cdn.discordapp.com/attachments/1090980363993612412/1151055371885097000/Sanne_Bas_-_Curio_-_Knipplein_11-1.jpg", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055380772827136/Sanne_Bas_-_Curio_-_Knipplein_11-2.jpg", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055372291936276/Sanne_Bas_-_Curio_-_Knipplein_11-3.jpg", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055372833013760/Sanne_Bas_-_Curio_-_Terheijdenseweg_350-1.jpg", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055373244043324/Sanne_Bas_-_Curio_-_Terheijdenseweg_350-2.jpg"];
         texts = ["Knipplein 11, Roosendaal", "Knipplein 11, Roosendaal", "Knipplein 11, Roosendaal", "Terheijdenseweg 350, Breda", "Terheijdenseweg 350, Breda"];
         replaceImg(locations[i], "image");
         replaceText(texts[i], "imagehead");
@@ -78,7 +78,7 @@ setInterval(function() {
     }
     else if(currentPage=="teachers"){
         names = ["Elton Boekhoudt", "Wicher Hulzebosch", "Bart Roos", "Joep van Gils", "Mustafa Kasar", "Michel Meeuwsen", "Bart Kouwenberg", "Tim Lutt"]
-        locations = ["img/elton.png", "img/wicher.png", "img/bart.png", "img/default.png", "img/default.png", "img/default.png", "img/default.png", "img/default.png"]
+        locations = ["https://cdn.discordapp.com/attachments/1090980363993612412/1151055371453087835/elton.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055373642514502/wicher.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055380361789450/bart.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055371222396928/default.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055371222396928/default.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055371222396928/default.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055371222396928/default.png", "https://cdn.discordapp.com/attachments/1090980363993612412/1151055371222396928/default.png"]
         replaceImg(locations[i], "image");
         replaceText(names[i], "imagehead");
         i++;
@@ -87,7 +87,7 @@ setInterval(function() {
         }
     }
     else{
-        image = "img/curio-01-zwart-logo-rgb.png"
+        image = "https://cdn.discordapp.com/attachments/1090980363993612412/1151055370387722250/curio-01-zwart-logo-rgb.png"
         replaceImg(image, "image");
         replaceText("Curio logo", "imagehead");
     }
