@@ -1,1 +1,5 @@
-About me is cool
+Tijdens je opleiding software developer werk je vaak in teams. Je leert samen hoe je projecten opzet om applicaties te ontwikkelen. Ook houd je in de gaten of je apps en software goed blijven werken.
+
+In het eerste jaar leer je vooral de basis van programmeer- en opmaaktalen. In het tweede jaar werk je met frameworks die bedrijven gebruiken, zoals Laravel, Vue, React, Xamarin en Bootstrap.
+
+Daarnaast krijg je algemene vakken als Nederlands, Engels, rekenen, loopbaan en burgerschap.
