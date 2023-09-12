@@ -1,5 +1,7 @@
-Tijdens je opleiding software developer werk je vaak in teams. Je leert samen hoe je projecten opzet om applicaties te ontwikkelen. Ook houd je in de gaten of je apps en software goed blijven werken.
+Tijdens je opleiding tot software developer werk je frequent in teamverband. Je leert hoe je projecten organiseert om applicaties te ontwikkelen en houdt te allen tijde de functionaliteit van je apps en software in de gaten.
 
-In het eerste jaar leer je vooral de basis van programmeer- en opmaaktalen. In het tweede jaar werk je met frameworks die bedrijven gebruiken, zoals Laravel, Vue, React, Xamarin en Bootstrap.
+In het eerste jaar van de opleiding leg je vooral de basis van programmeer- en opmaaktalen. In het tweede jaar ga je aan de slag met frameworks die veelvuldig worden gebruikt door bedrijven, zoals Laravel, Vue, React, Xamarin en Bootstrap.
 
-Daarnaast krijg je algemene vakken als Nederlands, Engels, rekenen, loopbaan en burgerschap.
+Naast specifieke vakgerichte kennis krijg je ook algemene vakken zoals Nederlands, Engels, rekenen, loopbaanoriëntatie en burgerschap.
+
+Als je nieuwsgierig bent naar hoe het is om te studeren aan het mbo, kun je je aanmelden voor een meeloopdag bij het mbo van jouw keuze. Op zo'n dag krijg je een authentieke ervaring van het mbo en het studentenleven. Je woont lessen bij en ontmoet medestudenten. Dat is een geweldige manier om te ontdekken of een mbo-opleiding bij jou past.
